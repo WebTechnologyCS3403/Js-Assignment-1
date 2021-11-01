@@ -8,16 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
     <h1>JS Assignment CSL-3403</h1>
     <h2>Submitted By: <b>Vikas Kumar Gond , 2006116</b></h2>
     <hr>
+    <div class="container">
     <h2><b>Ques 1.</b>Create a HTML page and show the procedure of connecting JS file with it.</p></h2>
-    <h3>We can include JavaScript in your HTML in two ways:</h3>
-    <p> Writing the code in your HTML i.e. by using <b>&lt;srcipt&gt; </b> tag </p>
+    <h3>We can include JavaScript in our HTML in three ways:</h3>
+    <li>Embedding code</li>
+    <li>Inline code</li>
+    <li>External file</li>
+    <p><b>1. Embedding code : </b>To add the JavaScript code into the HTML pages, we can use the &lt;script &gt;..... &lt;/script&gt; tag of the HTML that wrap around JavaScript code inside the HTML program. Users can also define JavaScript code in the &lt;body&gt; tag (or we can say body section) or <head> tag because it completely depends on the structure of the web page that the users use.</p>
     <img src="scriptjs.png" alt="<script> tag"> <br>
         <p>Alert promt by  internal &lt;script&gt; tag inside the body</p>
         <img src="script-prompt.png" alt="script-prompt">
+<p><b>2. Inline Code : </b>Generally, this method is used when we have to call a function in the HTML event attributes. There are many cases (or events) in which we have to add JavaScript code directly eg., OnMover event, OnClick, etc.</p>
+<a href="#" onClick="alert('I am Inline Code to add JavaScript in HTML ');">Click Me for Inline Code</a> <br> <br>
+<img src="inlinecode.png" alt="inlincodde">
+<p> <b>3. External File</b>
+    We can also create a separate file to hold the code of JavaScript with the (.js) extension and later incorporate/include it into our HTML document using the src attribute of the <b>&lt;script&gt;</b>  tag. It becomes very helpful if we want to use the same code in multiple HTML documents. It also saves us from the task of writing the same code over and over again and makes it easier to maintain web pages.
+</p>
     <p>Including it as a link to an external file</p>
     <img src="externaljs.png" alt="externally"> <br>
     <p>Alert promt from external javaScript file named Ques1.js</p>
