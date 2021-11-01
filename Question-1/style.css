@@ -1,0 +1,9 @@
+body{
+  background-color: aqua;
+}
+.container{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
