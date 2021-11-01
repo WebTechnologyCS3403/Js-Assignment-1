@@ -16,6 +16,9 @@ button{
     padding: 6px;
     font-size: 26px;
 }
+button:hover{
+    cursor: pointer;
+}
 .contain{
     background-color: black;
     margin: 25px;
