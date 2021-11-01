@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JS-Assignment</h1>
+    <h2>Submitted By : <b>Vikas Kumar Gond , 2006116</b></h2>
+    <hr>
+    <div class="contain">
+    <p class="que"><b>Ques-2:</b> Show the Scope of variables in JS using HTML page.</p>
+    <p>The scope of a variable is the region of your program in which it is defined. JavaScript variables have only two scopes.</p>
+    <p><b>Global Variables −</b> A global variable has global scope which means it can be defined anywhere in your JavaScript code</p>
+    <p><b>Local Variables −</b> A local variable will be visible only within a function where it is defined. Function parameters are always local to that function</p>
+    <p>Within the body of a function, a local variable takes precedence over a global variable with the same name. If you declare a local variable or function parameter with the same name as a global variable, you effectively hide the global variable.</p>
+    <p>This is the Screenshot of the underlying code in this Question to explain the scope of variables.You can verify it by clicking <b>View Code button</b></p>
+    <img src="var-js.png" alt="js-code"> 
+    <p>This is the Screenshot of the console output of the code in tihs Question you can verify the same by going to console of this HTML page. </p>
+    <img src="dev-tool.png" width="1260" alt="console">
+    <a href="" target="_blank"><button>View Code</button></a>
+
+    <!-- JavaScript code used in this Question  -->
+    <script>
+        var myVar = "global";  // Declare a global variable
+         function checkscope( ) {
+            var myVar = "local";  // Declare a local variable
+            console.log("I'm "+myVar+" variable . I'm visible only within this function.");
+         }
+         checkscope();
+         console.log("I'm "+myVar+"variable . You can see me anywhere in your Javascript Code.");
+
+    </script>
+
+</div>
+</body>
+</html>
