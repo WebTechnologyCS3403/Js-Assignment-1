@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JS-Assignment</h1>
+    <h2>Submitted By : <b>Vikas Kumar Gond , 2006116</b></h2>
+    <hr>
+    <div class="contain">
+    <h2>Question 3: Explain thee difference between Undefined and not defined variables in JS using HTML page</h2>
+    <table>
+        <tr>
+            <th>Undefined</th>
+            <th>Not Defined</th>
+        </tr>
+        <tr>
+            <td>1. It is a JavaScript keyword that has a special meaning. Everything which gets a space in memory will contain undefined until we assign a value to that memory space.</td>
+            <td>1. In JavaScript, it is one of the reference errors that JavaScript will throw when someone accesses the variable which is not inside the memory heap.</td>
+        </tr>
+        <tr>
+            <td>2. It works like when we declared a variable in the code but did not assign the value before printing the variable value</td>
+            <td>2. It works like when we did not declare the variable and try to call that variable.</td>
+        </tr>
+        <tr>
+            <td><b>3. Example:</b> In this example we defined the variable vkg but didn't assigned any value , Hence it'll show undefined message in console .  <br> 
+            <code>var vkg;</code> <br>
+            <code>console.log(vkg);</code><br>
+            <td><b>3. Example:</b> In this example we try to print the value of b without defining the b , Hence it will show not defined in console <br>
+                <code>console.log(b);</code> <br> 
+            </td>
+        </tr>
+        <tr>
+            <td><img src="undefined.png" alt="undefined"></td>
+            <td><img src="notdefined.png" alt="notdefined"></td>
+        </tr>
+    </table>
+
+    <script>
+    //  code to demonstrate not defined in javaScript
+            console.log(b);
+
+// code to demstrate undefined in JavaScript
+            var vkg;
+            console.log(vkg);
+
+    </script>
+   <a href="" target="_blank"><button>View Code</button></a>
+</div>
+</body>
+</html>
